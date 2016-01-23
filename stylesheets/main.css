@@ -6,6 +6,7 @@
 }
 .nightHawk a,
 .nightHawk a.button {
+  -webkit-transition-delay: 0.5s;
   transition-delay: 0.5s;
   color: #ffffff;
   -webkit-transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
