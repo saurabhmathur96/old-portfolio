@@ -1,6 +1,10 @@
+
+
+
+// for color change animation on scroll.
 (function()  {
   var isClassSet = false;
-  document.body.onscroll = function() {
+  window.onscroll = function() {
     if(!isClassSet) {
       document.body.className = "nightHawk";
       isClassSet = true;
