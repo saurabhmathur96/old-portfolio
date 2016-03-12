@@ -1,3 +1,7 @@
+
+section {
+    padding: 10px;
+}
 .nightHawk {
   background-color: #000000;
   color: #ffffff;
@@ -48,12 +52,11 @@ body a.button {
 .header {
   text-align: center;
 }
-section {
+.main-section {
+  min-height: 100vh;
   height: 100%;
 }
-section {
-  margin-top: 15rem;
-}
+
 footer {
   padding-top: 6rem;
   padding-bottom: 6rem;
@@ -72,12 +75,10 @@ footer {
 }
 /* Larger than phone */
 
-@media (min-width: 550px) {
-  section {
-    margin-top: 18rem;
-    padding-bottom: 15rem;
-  }
+#main {
+    padding-top: 30vh;
 }
+
 * {
   text-rendering: optimizeLegibility;
 }
